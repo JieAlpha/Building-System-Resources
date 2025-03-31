@@ -1,4 +1,4 @@
-all: program
+all: program test_vars
 
 program: source1.c source2.c
 	@echo "All prerequisites: $^"
