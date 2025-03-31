@@ -130,10 +130,9 @@ run_example() {
 if [ $# -ne 1 ]; then
     echo "运行所有示例..."
     echo "========================================="
-    # 使用 seq 命令替代 {1..9}
-    for i in $(seq 1 9); do
+    for i in $(seq 1 10); do
         run_example $i "silent"
-        if [ $i -lt 9 ]; then
+        if [ $i -lt 10 ]; then
             echo "========================================="
         fi
     done
