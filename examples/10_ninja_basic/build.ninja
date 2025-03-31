@@ -1,0 +1,33 @@
+# 变量定义示例
+builddir = build
+cxx = g++
+cxxflags = -Wall -std=c++11
+src = src
+
+# 编译池定义
+pool compile_pool
+  depth = 2
+
+# 基础编译规则
+rule compile
+  command = $cxx $cxxflags -c $in -o $out
+  description = 编译 $in
+  pool = compile_pool
+
+# 链接规则
+rule link
+  command = $cxx $in -o $out
+  description = 链接 $out
+
+# 构建语句
+build $builddir/main.o: compile $src/main.cpp | $src/config.h $src/utils.h
+build $builddir/utils.o: compile $src/utils.cpp | $src/utils.h
+
+# 最终可执行文件
+build $builddir/program: link $builddir/main.o $builddir/utils.o
+
+# 默认目标
+default $builddir/program
+
+# 别名定义
+build all: phony $builddir/program
