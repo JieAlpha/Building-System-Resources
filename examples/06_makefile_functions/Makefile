@@ -2,7 +2,7 @@ SOURCES = file1.c file2.c file3.c
 OBJECTS = $(patsubst %.c,%.o,$(SOURCES))
 
 TEXT = Hello_World
-REPLACED = $(subst _,$(space),$(TEXT))
+REPLACED = $(subst _," ",$(TEXT))
 STRIPPED = $(strip $(TEXT))
 
 FILES = test.c prog.cpp
