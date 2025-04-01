@@ -2,7 +2,7 @@ REL_PATH = ./src/test.c
 SYMLINK_PATH = ./link/file.c
 
 show_paths:
-	@echo "Real path: $(realpath $(REL_PATH))"
+	@echo "Real path: $(realpath $(SYMLINK_PATH))"
 	@echo "Absolute path: $(abspath $(REL_PATH))"
 	@echo "Directory part: $(dir $(REL_PATH))"
 
