@@ -2,6 +2,11 @@
 
 这个仓库包含了一系列构建系统的示例，用于演示不同的构建工具和技术。
 
+## 作者
+
+- 示例 1-10: [@floatDreamWithSong](https://github.com/floatDreamWithSong)
+- 示例 11-12: [@CGCG-1](https://github.com/CGCG-1)
+
 ## 目录结构
 
 ```
