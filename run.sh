@@ -68,7 +68,7 @@ run_example() {
             echo "运行Makefile特殊变量示例..."
             echo "----------------------------------------"
             cd "$EXAMPLE_ROOT/05_makefile_special_vars" && \
-            make test_vars
+            make
             echo "----------------------------------------"
             ;;
         6)
