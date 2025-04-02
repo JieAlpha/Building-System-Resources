@@ -103,7 +103,7 @@ run_example() {
             echo "----------------------------------------"
             ;;
         11)
-            echo "运行CMake基础示例..."
+            echo "运行CMake文件示例..."
             echo "----------------------------------------"
             cd "$EXAMPLE_ROOT/11_cmake" && \
             cmake . -B build && \
@@ -112,7 +112,7 @@ run_example() {
             echo "----------------------------------------"
             ;;
         12)
-            echo "运行CMake库示例..."
+            echo "运行CMake示例..."
             echo "----------------------------------------"
             cd "$EXAMPLE_ROOT/12_cmake" && \
             cmake -S . -B build && \
@@ -122,17 +122,6 @@ run_example() {
             ;;
         *)
             echo "用法: $0 <示例编号 1-12 或 clean>"
-            echo "示例列表:"
-            echo "  1: 基础编译示例"
-            echo "  2: Shell脚本构建示例"
-            echo "  3: 基础Makefile示例"
-            echo "  4: Makefile变量示例"
-            echo "  5: Makefile特殊变量示例"
-            echo "  6: Makefile函数示例"
-            echo "  7: Makefile路径函数示例"
-            echo "  8: Makefile foreach和shell示例"
-            echo "  9: Makefile模式匹配示例"
-            echo "  clean: 清理所有示例"
             exit 1
             ;;
     esac
