@@ -6,6 +6,10 @@
 
 课程讲义： [讲义](https://www.yuque.com/denghanjie/public/building-system)
 
+课后练习作业：
+ - [linux](https://github.com/JieAlpha/Building-System-Tests-for-Linux)
+ - [windows](https://github.com/JieAlpha/Building-System-Tests-for-Windows)
+
 ## 作者
 
 - 示例 1-10: [@floatDreamWithSong](https://github.com/floatDreamWithSong)
