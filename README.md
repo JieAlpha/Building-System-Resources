@@ -24,7 +24,9 @@ examples/
 ├── 07_makefile_path_functions/ # Makefile路径函数示例
 ├── 08_makefile_foreach_shell/ # Makefile foreach和shell示例
 ├── 09_makefile_patterns/   # Makefile模式匹配示例
-└── 10_ninja_basic/        # Ninja基础示例
+├── 10_ninja_basic/        # Ninja基础示例
+├── 11_cmake   # CMake文件示例
+└── 12_cmake   # CMake示例
 ```
 
 ## 运行方法
@@ -48,6 +50,8 @@ examples/
 - 8: Makefile foreach和shell示例
 - 9: Makefile模式匹配示例
 - 10: Ninja综合示例
+- 11: CMake文件示例
+- 12: CMake示例
 
 ### 运行所有示例
 
