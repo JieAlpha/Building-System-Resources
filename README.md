@@ -2,6 +2,10 @@
 
 这个仓库包含了一系列构建系统的示例，用于演示不同的构建工具和技术。
 
+课程环境搭建：[环境](https://www.yuque.com/denghanjie/public/ablb2z8wiqq24h9r)
+
+课程讲义： [讲义](https://www.yuque.com/denghanjie/public/building-system0)
+
 ## 作者
 
 - 示例 1-10: [@floatDreamWithSong](https://github.com/floatDreamWithSong)
